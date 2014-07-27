@@ -6,9 +6,8 @@ The R script called run_analysis.R does the following transformations:
 4. Appropriately labels the data set with descriptive variable names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-
+```
 The variables used in run_analysis.R:
-----
 
   activity_labels 	- Activity Labels
   features	 	- List of All Features
@@ -32,11 +31,10 @@ The variables used in run_analysis.R:
 
 
 Tidy Data Set contains
-----
 
   Subject
   Activity
   Mean for each associated *mean()* and *std()* column from original data sets
 
   
-
+```
