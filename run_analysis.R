@@ -42,11 +42,13 @@ tidySet$Subject <- NULL
 
 tidySet <- rename(tidySet,c("Group.1" = "Subject", "Group.2" = "Activity"))
 
-colNames = c("Subject","Activity",as.character(means),as.character(stdss))
+## colNames = c("Subject","Activity",as.character(means),as.character(stdss))
 
 ## Write out Upload Files
-write.table(tidySet, file="tidySet.txt", row.names=FALSE, col.names=colNames)
-write.csv(tidySet, file="tidySet.csv", row.names=FALSE, col.names=colNames)
+## write.table(tidySet, file="tidySet.txt", row.names=FALSE, col.names=colNames)
+## write.csv(tidySet, file="tidySet.csv", row.names=FALSE, col.names=colNames)
+write.table(tidySet, file="tidySet.txt", row.names=FALSE)
+write.csv(tidySet, file="tidySet.csv", row.names=FALSE)
 
 
 
