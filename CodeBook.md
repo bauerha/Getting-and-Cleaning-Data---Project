@@ -7,6 +7,14 @@ The R script called run_analysis.R does the following transformations:
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 ```
+Running run_analysis.R:
+
+  Script should be run from the extract directory for the Source Data
+
+    unzip "getdata-projectfiles-UCI HAR Dataset.zip"
+
+    Run script from "UCI HAR Dataset"
+
 The variables used in run_analysis.R:
 
   activity_labels 	- Activity Labels
