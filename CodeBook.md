@@ -20,7 +20,7 @@ The variables used in run_analysis.R:
   Test Data
   	x_test		- Test Set
 	y_test		- Test Labels
-	s_test		- Subject Performaing the Activity
+	s_test		- Subject Performing the Activity
 
   train		- Combined x_train, y_train, s_train
   test		- Combined x_test, y_test, s_test
@@ -30,11 +30,22 @@ The variables used in run_analysis.R:
   tidySet	- Tidy Data Set
 
 
-Tidy Data Set contains
+Tidy Data Set contains the following columns
 
-  Subject
-  Activity
-  Mean for each associated *mean()* and *std()* column from original data sets
+  Subject	- Subject Performing the Activity
+  Activity	- Activity Performed
+  All other Columns:
+    Mean for each associated *mean()* and *std()* column from original data sets
 
   
 ```
+Original Data Set
+
+A full description is available at the site where the extracted data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Here are the data for the project: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
